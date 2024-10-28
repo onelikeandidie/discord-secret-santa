@@ -1,0 +1,11 @@
+[package]
+name = "secret_santa"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+serde = { version = "1.0.213", features = ["derive"] }
+serenity = "0.12.2"
+tokio = { version = "1.41.0", features = ["full"] }
+toml = "0.8.19"
